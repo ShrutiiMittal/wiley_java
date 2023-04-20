@@ -9,5 +9,10 @@ public class Casting {
         myInt=(int)myDouble;//manual casting
         System.out.println(myDouble);
         System.out.println(myInt);
+
+
+        char c='a';
+        c++;
+        System.out.println(c);
     }
 }
