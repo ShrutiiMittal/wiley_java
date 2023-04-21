@@ -23,7 +23,7 @@ public class ObjectCreation implements Cloneable {
         }
 
 
-        // third method- used to clone object from another object
+        // third method- used to clone object from another object using cloneable interface
         ObjectCreation objClone=(ObjectCreation) cc.clone();
         objClone.add();
         System.out.println("object clone :" + objClone);
