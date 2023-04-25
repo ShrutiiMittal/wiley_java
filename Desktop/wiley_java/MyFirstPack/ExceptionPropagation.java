@@ -15,4 +15,5 @@ public class ExceptionPropagation {
  public static void method2()throws Exception {
     throw new Exception("Exception occured in the method 2");
  }
+ // main->method1->method2->method 2 is throwing the exception but not catching .exception is caught in the catch block
 }
