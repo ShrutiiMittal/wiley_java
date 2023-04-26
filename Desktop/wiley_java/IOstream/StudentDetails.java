@@ -40,9 +40,9 @@ class Student{
     private char gender;
     private int age;
     private float marks;
-    public Student(String name, char gender,int age,float marks){
+    public Student(String name, char gender2,int age,float marks){
         this.name=name;
-        this.gender=gender;
+        this.gender=gender2;
         this.age=age;
         this.marks=marks;
     }

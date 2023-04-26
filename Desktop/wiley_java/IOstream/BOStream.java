@@ -34,3 +34,7 @@ public class BOStream {
     }
     
 }
+
+// Buffered is for bytes
+//datastream for primtive data types
+// byte stream n chr stream hierarchy xplain
