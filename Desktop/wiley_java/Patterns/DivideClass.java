@@ -8,7 +8,8 @@ public class DivideClass {
         Pattern pattern =Pattern.compile("^(\\d+) divide by (\\d+)$");
         Matcher matcher= pattern.matcher("10 divide by 5");
         if(matcher.find()){
-            String simplifiedMessage="result = "+matcher.replaceFirst("$1,$2");
+            String simplifiedMessage="result = "+matcher.replaceFirst("$1,$2");//$1 represents group 1 and $2 represents group 2
+            
             System.out.println(simplifiedMessage);
             System.out.println(matcher.group(1));
 
