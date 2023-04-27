@@ -1,4 +1,4 @@
-package RandomConcepts;
+package Patterns;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
